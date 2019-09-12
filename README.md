@@ -5,4 +5,5 @@
 - разработчик Ростелеком-Солар
 
 email: olzhas.aitkaliyev@gmail.com
+
 telegram: @borsik
