@@ -3,45 +3,99 @@
 
 <head>
   <title>Olzhas Aitkaliyev, Software Developer</title>
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--<nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/cv">CV</a></li>
-      <li><a href="/blog">Blog</a></li>
-    </ul>
-  </nav> -->
+  <header></header>
   <div class="container">
-    <div class="blurb">
-      <h1>Hi there, I'm Olzhas Aitkaliyev!</h1>
-      <p>
-        <ul class="list">
-          <li>I'm 29. Currently live in Moscow</li>
-          <li>Graduated from PSUTI, Samara 2013</li>
-          <li>Scala Developer at Rostelecom-Solar</li>
+    <div class="row">
+      <h4 class="my-name">Меня зовут Олжас Айткалиев</h4>
+    </div>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>Мне 29 лет, живу в Москве</li>
+          <li>Закончил ПГУТИ (г. Самара) в 2013 году</li>
+          <li>Разработчик в Ростелеком-Солар</li>
         </ul>
-      </p>
-      <div class="work">
-        <h2>Work Experience</h2>
-        <ul class="list">
-          <li>2018 - current time. Rostelecom-Solar</li>
-          <li>2017 - 2018. Innodata</li>
+        <ul class="no-bullet">
+          <li>
+            <a href="mailto:olzhas.aitkaliyev@gmail.com">
+              olzhas.aitkaliyev@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/borsik">@borsik</a>
+          </li>
         </ul>
       </div>
-      <!-- <p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more
-          about my life...</a></p> -->
-    </div><!-- /.blurb -->
-  </div><!-- /.container -->
-  <footer>
-    <ul>
-      <li><a href="mailto:olzhas.aitkaliyev@gmail.com">email</a></li>
-      <li><a href="https://github.com/borsik">github.com/borsik</a></li>
-    </ul>
-  </footer>
+      <div class="col">
+        <img src="http://placekitten.com/g/200/200">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h4 class="job-experience">Опыт работы</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <p class="job-name">Ростелеком-Солар</p>
+        <p class="job-post">Разработчик Scala</p>
+        <p class="job-date">с 2018 года</p>
+        <ul>
+          <li>Переход на elastic4s 7.1.x</li>
+          <li>Разработка клиентской части системы контроля рабочего времени (playframework, clickhouse)</li>
+          <li>Добавление поддержки кросс-кластерных запросов (elastisearch)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <p class="job-name">ООО "Иннодата"</p>
+        <p class="job-post">Разработчик Scala</p>
+        <p class="job-date">2017 - 2018</p>
+        <ul>
+          <li>Разработка серверной части системы аггрегации обращений (akka-http, akka-actors, postgresql)</li>
+          <li>Поддержка клиентского веб-приложения (playframework)</li>
+          <li>Написание пайплайнов для автоматического деплоя приложения (Jenkins)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <p class="job-name">ЗАО "ЛАНИТ-Самара"</p>
+        <p class="job-post">Разработчик Java</p>
+        <p class="job-date">2013 - 2014</p>
+        <ul>
+          <li>Разработка адаптеров к сервисам Госуслуг</li>
+          <li>Верстка шаблонов для отчетов BIRT </li>
+          <li>Поддержка веб приложения на Jboss5</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h4 class="skills">Навыки</h4>
+    </div>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>akka-actors, akka-http, playframework, scalatest</li>
+          <li>elasticsearch, clickhouse, postgresql</li>
+          <li>pytest, pandas, numpy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer></footer>
 </body>
 
 </html>

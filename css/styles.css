@@ -1,0 +1,41 @@
+header {
+  padding: 20px;
+}
+
+h4 {
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer ul {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul.no-bullet {
+  list-style-type: none;
+}
+
+p {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  margin: 1px;
+}
+
+p.job-name {
+  font-size: 1.2em;
+}
+
+p.job-date {
+  font-size: 0.9em;
+  color: gray;
+}
